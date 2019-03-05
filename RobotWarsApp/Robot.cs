@@ -8,8 +8,7 @@ namespace RobotWarsApp
 {
     public class Robot
     {
-        private string _direction;
-
+        public string _direction;
         public Compass _compass;
         public int _y;
         public int _x;

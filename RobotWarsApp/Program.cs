@@ -37,9 +37,7 @@ namespace RobotWarsApp
             Johnny5._arena = O2Arena;
             O2Arena.add();
             Johnny5.setInstructions(robo1Instruction);
-
-            Console.WriteLine(string.Format("{0} {1} {2}", Johnny5._y, Johnny5._x, Johnny5.status));
-
+            
             // Set Robo 2
             var R2D2 = new Robot(
                 int.Parse(robo2Location[0]),
@@ -50,8 +48,11 @@ namespace RobotWarsApp
             R2D2._arena = O2Arena;
             O2Arena.add();
             R2D2.setInstructions(robo2Instruction);
-            
-            Console.WriteLine(string.Format("{0} {1} {2}", R2D2._y, R2D2._x, R2D2.status));
+
+            // Gets the robot's location and status 
+            var Radar = new Radar(O2Arena);
+            Radar.scanRobos(Johnny5);
+            Radar.scanRobos(R2D2);
         }
     }
 }
