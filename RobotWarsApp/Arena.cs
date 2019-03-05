@@ -22,12 +22,18 @@ namespace RobotWarsApp
 
         public void add()
         {
-            if (_robotArena[_robot._y,_robot._x] == null &&
-                _robotArena[_robot._x, _robot._y] != _robot)
+            if (_robot._y >= 0 &&
+                _robot._x >= 0 &&
+                _robot._y <= (_robotArena.GetLength(0) - 1) &&
+                _robot._x <= (_robotArena.GetLength(1) - 1))
             {
-                _robotArena[_robot._y,_robot._x] = _robot;
+                _robotArena[_robot._y, _robot._x] = _robot;
                 robotscurrentYcoordinate = _robot._y;
                 robotsCurrentXcoordinate = _robot._x;
+            }
+            else
+            {
+                _robot.status = "Wreck";
             }
         }
 
