@@ -1,9 +1,9 @@
 # RobotWarsApp
 FA Interview Task.
 
-Fist of all I like to say this was a fun test and enjoyed doing it.
-The code work well and meets the requirement.
-However  I believe i misunderstood one part of your question.
+Fist of all I like to say this was a fun test and I enjoyed doing it.
+The code works well and meets the requirement.
+However I believe I misunderstood one part of your question.
 This is on the coordination.The paper stats that the start point of the arena is (y0,x0) left hand corner.
 So when you set the arena to the test example of 7 6 that's (y0-6,x0-5)
 The start position of the robot is 2 4 E and the instruction sent to it is MMRMMRMRRM.
