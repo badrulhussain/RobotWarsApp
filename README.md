@@ -1,7 +1,7 @@
 # RobotWarsApp
 FA Interview Task.
 
-Fist of all I like to say this was a fun test and I enjoyed doing it.
+First of all I like to say this was a fun test and I enjoyed doing it.
 The code works well and meets the requirement.
 However I believe I misunderstood one part of your question.
 This is on the coordination.The paper stats that the start point of the arena is (y0,x0) left hand corner.
