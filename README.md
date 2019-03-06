@@ -1,5 +1,5 @@
 # RobotWarsApp
-FC Interview Task.
+FA Interview Task.
 
 Fist of all I like to say this was a fun test and enjoyed doing it.
 The code work well and meets the requirement.
